@@ -15,7 +15,7 @@ For running SRVC, check `python srvc.py --help`.
 ### Vimeo Short Films
 We use 28 short films with direct download buttons on Vimeo. These videos are in high-resolution, have realistic scene changes from movie-makers, and have 10min+ duration. 
 
-Vimeo `video_id`s are located [here](#./datasets/vimeo/vimeo_ids.txt), and you can view/download them at `vimeo.com/video_id`, e.g., [vimeo.com/441417334](https://vimeo.com/441417334). 
+Vimeo `video_id`s are located [here](./datasets/vimeo/vimeo_ids.txt), and you can view/download them at `vimeo.com/video_id`, e.g., [vimeo.com/441417334](https://vimeo.com/441417334). 
 
 ### Xiph Full Sequences
 We use the following four long video sequences from the [Xiph](https://media.xiph.org/video/derf/) video dataset:
