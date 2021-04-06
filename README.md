@@ -1,5 +1,9 @@
 # Efficient Video Compression via Content-Adaptive Super-Resolution
+We present a new approach that augments existing codecs with a small, content-adaptive super-resolution model that significantly boosts video quality. Our method, SRVC, encodes video into two bitstreams: 
+1. a `content stream`, produced by compressing downsampled low-resolution video with the existing codec, 
+2. a `model stream`, which encodes periodic updates to a lightweight super-resolution neural network customized for short segments of the video.
 
+SRVC decodes the video by passing the decompressed low-resolution video frames through the (time-varying) super-resolution model to reconstruct high-resolution video frames.
 ## Installation
 For installing the required packages using [Conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html), use:
 ```
