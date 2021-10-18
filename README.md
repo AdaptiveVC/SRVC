@@ -31,5 +31,15 @@ We use the following four long video sequences from the [Xiph](https://media.xip
 - [Meridian](https://media.xiph.org/video/derf/meridian/MERIDIAN_SHR_C_EN-XX_US-NR_51_LTRT_UHD_20160909_OV/)
 
 
-## ToDos
-- [ ] Upload the demo samples
+## Citation
+You may cite this work using:
+```
+@InProceedings{Khani_2021_ICCV,
+    author    = {Khani, Mehrdad and Sivaraman, Vibhaalakshmi and Alizadeh, Mohammad},
+    title     = {Efficient Video Compression via Content-Adaptive Super-Resolution},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {4521-4530}
+}
+```
